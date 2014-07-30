@@ -66,6 +66,7 @@
     <Content Include="less\app.css.map">
       <DependentUpon>app.css</DependentUpon>
     </Content>
+    <Content Include="image\cvIndinaSmith.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
