@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <!-- ==========================
@@ -28,6 +28,8 @@
     <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 
+
+
     <!-- ==========================
     	CSS 
     =========================== -->
@@ -36,8 +38,9 @@
     <link href="plugins/animate/animate.css" rel="stylesheet" type="text/css">
     <link href="plugins/creative-brands/creative-brands.css" rel="stylesheet" type="text/css">
     <link href="plugins/vertical-carousel/vertical-carousel.css" rel="stylesheet" type="text/css">
-    <link href="css/custom.css" rel="stylesheet" type="text/css">
-    
+    <!--<link href="css/custom.css" rel="stylesheet" type="text/css">-->
+    <link href="less/app.css" rel="stylesheet" />
+
     <!-- ==========================
     	JS 
     =========================== -->
@@ -60,8 +63,8 @@
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavigation"><i class="fa fa-bars"></i></button>
-                    <img src="image/jonathan.png" class="navbar-logo pull-left" alt="" />
-                    <a href="index.html" class="navbar-brand animated flipInX">John Doe</a>
+                    <img style="width: 65px;" src="image/indina.png" class="img-circle pull-left" alt="" />
+                    <a href="index.html" class="navbar-brand animated flipInX">Indina Smith</a>
                 </div>
                 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -77,16 +80,16 @@
         </nav>
         
         <div class="jumbotron">
-            <img src="image/jonathan.png" class="img-responsive scrollpoint sp-effect3" alt="" />	
+            <img src="image/indina3.jpg" class="img-responsive img-circle scrollpoint sp-effect3" alt="" />	
             <div class="social-wrapper">
                 <ul class="brands brands-inline hidden-xs scrollpoint sp-effect1">
-                    <li><a href="#"><i class="fa fa-facebook  hi-icon-effect-8"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.facebook.com/indina.smith"><i class="fa fa-facebook  hi-icon-effect-8"></i></a></li>
+                    <li><a href="https://twitter.com/IndisStyle"><i class="fa fa-twitter"></i></a></li>
                 </ul>   
-                <h2 class="scrollpoint sp-effect3">John Doe</h2>
+                <h2 class="scrollpoint sp-effect3">Indina Smith</h2>
                 <ul class="brands brands-inline hidden-xs scrollpoint sp-effect2">
-                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/Indina"><i class="fa fa-github"></i></a></li>
+                    <li><a href="https://no.linkedin.com/pub/indina-smith/65/2a4/32b/"><i class="fa fa-linkedin"></i></a></li>
                 </ul>       
             </div>
             <!-- Slideshow start -->                          
@@ -114,97 +117,96 @@
     <section id="about" class="content-first">
         <div class="container">
             <div class="row">
-                <div class="col-sm-2 hidden-xs scrollpoint sp-effect1"><!-- Profile image --> 
-                	<img src="image/jonathan.png" class="image-bordered img-responsive" alt="" />                
-                </div><!-- Profile end --> 
-                
-                <div class="col-md-7 col-sm-6 scrollpoint sp-effect1"><!-- Profile description --> 
-                	<h3>John Doe</h3>
-                  	<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>      
-                    
-                    <div class="tweets"><!-- Tweets row --> 
-                        <!-- Tweets slideshow --> 
-                             <div class="media">
-                                    <div class="pull-left"><i class="fa fa-twitter"></i></div>
-                                    <div class="media-body">
-                                        <div id="slideshow1" class="carousel slide" data-ride="carousel">
-                                              <div class="carousel-inner">
-                                               <!-- Slideshow item 1 active --> 
-                                                  <div class="item active">
-                                                        <p>Hi everyone i just finished my last #awesome web template you can check it on #wrapbootstrap.. Fully responsive and mobile first webtheme.co</p> 
-                                                  </div>
-                                               <!-- Slideshow item 2 -->    
-                                                  <div class="item">
-                                                        <p>Check our new amazing portfolio on #Pixelized</p>
-                                                  </div>
-                                                  
-                                                <!-- Slideshow item 3 -->
-                                                  <div class="item">
-                                                        <p>Another very #important tweet from your twitter.</p>
-                                                  </div>
-                                              </div>    
-                                         </div>
+                <div class="col-sm-2 hidden-xs scrollpoint sp-effect1">
+                    <!-- Profile image -->
+                    <img src="image/indina.png" class="image-bordered img-responsive img-circle" alt="" />
+                </div><!-- Profile end -->
+
+                <div class="col-md-7 col-sm-6 scrollpoint sp-effect1">
+                    <!-- Profile description -->
+                    <h3>Indina Smith</h3>
+                    <p>I am a solution oriented girl, 23 years old
+with a husband and three children.
+I would describe myself as an energetic
+girl. I am social and easy to talk with.
+I am creative, which makes me
+think problem solving is fun.
+I think it is exciting with challenges!</p>
+
+                    <div class="tweets">
+                        <!-- Tweets row -->
+                        <!-- Tweets slideshow -->
+                        <div class="media">
+                            <div class="pull-left"><i class="fa fa-twitter"></i></div>
+                            <div class="media-body">
+                                <div id="slideshow1" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <!-- Slideshow item 1 active -->
+                                        <div class="item active">
+                                            <p>Jony Ive said it best: “Sexy products aren’t a fancy package, a great looking banner, or a slick button. They’re about wowing the customer.”</p>
+                                        </div>
+                                        <!-- Slideshow item 2 -->
+                                        <div class="item">
+                                            <p>If we want users to like our software, we should design it to behave like a likeable person. - Alan Cooper</p>
+                                        </div>
+
+                                    
                                     </div>
-                             </div>    
-                       <!-- Tweets slideshow end --> 
-                    </div><!-- Tweets row end --> 
-               </div><!-- Profile description end--> 
-                
-              <div class="col-md-3 col-sm-4 scrollpoint sp-effect2"><!--Timeline-->
-                 
-                  <div class="timeline">
-                      <!-- BLOG POST 1 - START -->
-                      <div class="event">
-                          <div class="event-info">
-                            <div class="date">1999</div>
-                          </div>
-                      	  <span>Graduated harvard</span>
-                      </div> <!-- BLOG POST 1 - END -->
-                      
-                      <div class="event">
-                          <div class="event-info">
-                             <div class="date">2000</div>
-                          </div>
-                      	  <span>Internship Google</span>
-                      </div> <!-- BLOG POST 1 - END -->
-                      
-                      <div class="event">
-                          <div class="event-info">
-                             <div class="date">2001</div>
-                          </div>
-                      	  <span>Full-time Job Google</span>
-                      </div> <!-- BLOG POST 1 - END -->
-                      
-                      <div class="event">
-                          <div class="event-info">
-                             <div class="date">2009</div>
-                          </div>
-                      	  <span>Publish own book</span>
-                      </div> <!-- BLOG POST 1 - END -->
-                      
-                      <div class="event">
-                          <div class="event-info">
-                             <div class="date">2012</div>
-                          </div>
-                      	  <span>Start freelancing</span>
-                      </div> <!-- BLOG POST 1 - END -->
-                      
-                  </div><!--timeline-->
-              </div><!--col 3 end-->
-               
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Tweets slideshow end -->
+                    </div><!-- Tweets row end -->
+                </div><!-- Profile description end-->
+
+                <div class="col-md-3 col-sm-4 scrollpoint sp-effect2">
+                    <!--Timeline-->
+
+                    <div class="timeline">
+                        <!-- BLOG POST 1 - START -->
+                        <div class="event">
+                            <div class="event-info">
+                                <div class="date">T.D</div>
+                            </div>
+                            <span>Intelego systems AS</span>
+                        </div> <!-- BLOG POST 1 - END -->
+
+                        <div class="event">
+                            <div class="event-info">
+                                <div class="date">2013</div>
+                            </div>
+                            <span>Graduated Høgskolen i Molde</span>
+                        </div> <!-- BLOG POST 1 - END -->
+
+
+                        <div class="event">
+                            <div class="event-info">
+                                <div class="date">2010</div>
+                            </div>
+                            <span>Graduated KG</span>
+                        </div> <!-- BLOG POST 1 - END -->
+
+                       
+
+                    </div><!--timeline-->
+                </div><!--col 3 end-->
+
             </div><!--Row about end-->
-            
-            
+
+        
             <div class="row">
-            	<div class="col-md-12 text-center">
-                	<a id="skills-toggle" class="btn btn-primary"><i class="fa fa-arrow-circle-o-down"></i> Check my skills</a>
+                <div class="col-md-12 text-center" style="
+    margin-top: 40px;
+">
+                    <a id="skills-toggle" class="btn btn-primary"><i class="fa fa-arrow-circle-o-down"></i> Check my skills</a>
                 </div>
             </div>
         </div><!-- Container end-->
-        
+
         <div id="skills">
-            <div class="container">   
-                <div class="row"><!-- Toogle my skills start --> 
+            <div class="container">
+                <div class="row">
+                    <!-- Toogle my skills start -->
                     <div class="col-md-3">
                         <div class="chart" data-percent="73">73% CSS</div>
                     </div>
@@ -217,11 +219,11 @@
                     <div class="col-md-3">
                         <div class="chart" data-percent="62">62% Design</div>
                     </div>
-                </div><!-- Toogle my skills end--> 
-                
+                </div><!-- Toogle my skills end-->
+
             </div><!-- Container end-->
         </div>
-        
+
     </section>
     <!-- ==========================
     	ABOUT - END 
@@ -233,20 +235,20 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="scrollpoint sp-effect3">What i do</h2>
+                    <h2 class="scrollpoint sp-effect3">What i like to do</h2>
                     <p class="scrollpoint sp-effect3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in turpis quam. Nulla quis eleifend lectus.</p> 
                 </div>
                 
                 <div class="col-md-3 service scrollpoint sp-effect1">
                 <img src="image/ico5.png" alt="">
-                <h3>SEO first</h3>
+                <h3>UX/UI</h3>
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.</p>
                 </div>
                 
                 
                 <div class="col-md-3 service scrollpoint sp-effect1">
                 <img src="image/ico4.png" alt="">
-                <h3>Firstclass design</h3>
+                <h3>Customer care</h3>
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.</p>
                 </div>
                 
@@ -259,7 +261,7 @@
                 
                 <div class="col-md-3 service scrollpoint sp-effect2">
                 <img src="image/ico3.png" alt="">
-                <h3>Browser friendly</h3>
+                <h3>Effective, but careful about the details.</h3>
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.</p>
                 </div>
                 
@@ -277,27 +279,27 @@
             <div class="row scrollpoint sp-effect3">
                 <div class="col-sm-2">
                 	<i class="fa fa-user"></i>
-                    <p><span class="highlight">100</span> Happy clients</p>
+                    <p>Boostrap</p>
                 </div> 	
                 <div class="col-sm-2">
                 	<i class="fa fa-coffee"></i>
-                    <p><span class="highlight">250</span> cups of coffee</p>
+                    <p>Jquery</p>
                 </div> 	
                 <div class="col-sm-2">
                 	<i class="fa fa-code"></i>
-                    <p><span class="highlight">2500</span> lines of codes</p>
+                    <p>Font-awesome</p>
                 </div> 	
                 <div class="col-sm-2">
                 	<i class="fa fa-envelope"></i>
-                    <p><span class="highlight">300</span> emails</p>
+                    <p>Github</p>
                 </div> 	
                 <div class="col-sm-2">
                 	<i class="fa fa-phone"></i>
-                    <p><span class="highlight">50</span> hours phone calls</p>
+                    <p>Plunker</p>
                 </div> 	
                 <div class="col-sm-2">
                 	<i class="fa fa-facebook"></i>
-                    <p><span class="highlight">24</span> hours facebook</p>
+                    <p>Angular js</p>
                 </div> 	
             </div>
         </div>
@@ -313,7 +315,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <h2 class="scrollpoint sp-effect3">My latest work</h2>
+                    <h2 class="scrollpoint sp-effect3">My last work</h2>
                     <p class="scrollpoint sp-effect3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in turpis quam. Nulla quis eleifend lectus.</p> 
                 </div>
                 
@@ -324,8 +326,9 @@
                             <div class="media">
                                 <div class="pull-left showcase-icon"><i class="fa fa-puzzle-piece"></i></div>
                                 <div class="media-body">
-                                    <h3 class="media-heading">Browser friendly</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur ad.</p>
+                                    <h3 class="media-heading">Inline editing</h3>
+                                    <p>Angular-xeditable is a bundle of AngularJS directives that allows you to create editable elements.
+Such technique is also known as click-to-edit or edit-in-place.</p>
                                 </div>
                             </div>
                         </div>
@@ -334,8 +337,8 @@
                             <div class="media">
                                 <div class="pull-left showcase-icon"><i class="fa fa-trophy"></i></div>
                                 <div class="media-body">
-                                   <h3 class="media-heading">First class design</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur ad.</p>
+                                   <h3 class="media-heading">Angular js</h3>
+                                    <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur ad.</p>-->
                                 </div>
                             </div>
                         </div>
@@ -344,8 +347,8 @@
                             <div class="media">
                                 <div class="pull-left showcase-icon"><i class="fa fa-thumbs-up"></i></div>
                                 <div class="media-body">
-                                    <h3 class="media-heading">Profesional scheme for freelancers</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur ad.</p>
+                                    <h3 class="media-heading">SPA</h3>
+                                    <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur ad.</p>-->
                                 </div>
                             </div>
                         </div>
@@ -354,15 +357,15 @@
                             <div class="media">
                                 <div class="pull-left showcase-icon"><i class="fa fa-arrows"></i></div>
                                 <div class="media-body">
-                                    <h3 class="media-heading">Fully responsive</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur ad.</p>
+                                    <h3 class="media-heading">Dashboard</h3>
+                                    <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur ad.</p>-->
                                 </div>
                             </div>
                         </div>
                     </div>
                     
                    <div class="text-center showcase-button">
-                   		<a class="btn btn-primary btn-lg" role="button"><i class="fa fa-bolt"></i> See in action</a>
+                       <a href="http://worklink.no/"  class="btn btn-primary btn-lg" role="button"><i class="fa fa-bolt"></i> See in action</a>
                    </div>
                 </div>            
             
@@ -372,8 +375,9 @@
                     <div id="carousel-reference" class="carousel slide" data-ride="carousel">
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner">
-                            <div class="item active"><img src="image/image_01.png" alt=""></div>
-                            <div class="item"><img src="image/image_02.png" alt=""></div>
+                            <div class="item active"><img src="image/image-4.jpg" alt=""></div>
+                            <div class="item"><img src="image/image-03.jpg" alt=""></div>
+                            <div class="item"><img src="image/image-1.jpg" alt=""></div>
                         </div>
                         
                         <!-- Controls -->
@@ -410,67 +414,43 @@
     =========================== -->
     <section id="reference" class="content-second">
         <h2 class="scrollpoint sp-effect3">Reference</h2>
-        <p class="scrollpoint sp-effect3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in turpis quam. Nulla quis eleifend lectus.</p> 
+        <p class="scrollpoint sp-effect3">These are projects I have developed, with a team of two people. I was responsible for everything front end related and design and graphic. Some customers have been very strict on how they wanted the design.</p> 
    		<ul class="grid cs-style-4">
-				<li>
-					<figure class="scrollpoint sp-effect1">
-						<div><img src="image/ref1.png" alt="img04"></div>
-						<figcaption>
-							<h3>Lorem ipsum</h3>
-							<a href="">Show me</a>
-						</figcaption>
-					</figure>
-				</li>
+			
                 
                 <li>
-					<figure class="scrollpoint sp-effect3">
-						<div><img src="image/ref2.png" alt="img04"></div>
+					<figure class="scrollpoint sp-effect1">
+						<div><img src="image/ref_5.jpg" alt="img04"></div>
 						<figcaption>
-							<h3>Lorem ipsum</h3>
-							<a href="">Show me</a>
+							<h3>Gartner Jonassen</h3>
+                            <a href="http://www.ingvarjonassen.no/">Show me</a>
 						</figcaption>
 					</figure>
 				</li>
                 
                 <li>
 					<figure class="scrollpoint sp-effect2">
-						<div><img src="image/ref3.png" alt="img04"></div>
+						<div><img src="image/ref_2.jpg" alt="img04"></div>
 						<figcaption>
-							<h3>Lorem ipsum</h3>
-							<a href="">Show me</a>
-						</figcaption>
-					</figure>
-				</li>
-                
-                <li>
-					<figure class="scrollpoint sp-effect1">
-						<div><img src="image/ref4.png" alt="img04"></div>
-						<figcaption>
-							<h3>Lorem ipsum</h3>
-							<a href="">Show me</a>
+							<h3>Guanxi</h3>
+                            <a href="http://guanxi.no/">Show me</a>
 						</figcaption>
 					</figure>
 				</li>
                 
                 <li>
 					<figure class="scrollpoint sp-effect3">
-						<div><img src="image/ref5.png" alt="img04"></div>
+						<div><img src="image/ref_4.jpg" alt="img04"></div>
 						<figcaption>
-							<h3>Lorem ipsum</h3>
-							<a href="">Show me</a>
+							<h3>Rosecampen</h3>
+                            <a href="http://www.rosecampen.no/">Show me</a>
 						</figcaption>
 					</figure>
 				</li>
                 
-                <li>
-					<figure class="scrollpoint sp-effect2">
-						<div><img src="image/ref6.png" alt="img04"></div>
-						<figcaption>
-							<h3>Lorem ipsum</h3>
-							<a href="">Show me</a>
-						</figcaption>
-					</figure>
-				</li>
+             
+                
+             
 				
 			</ul>
     
@@ -482,13 +462,16 @@
     	BLOG - START
     =========================== -->   
     <section id="blog" class="content-first">
-    	<div class="container">
-        	<h2 class="scrollpoint sp-effect3">Latest Blog Posts</h2>
-        	<p class="scrollpoint sp-effect3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in turpis quam. Nulla quis eleifend lectus.</p> 
-        </div>
-            
+        <div class="container">
+            <a href="http://conflictedcoding.com/">
+                <img src="image/logoconflict4.png" alt="" />
+            </a>
+
+                <p class="scrollpoint sp-effect3">This is my own blog</p>
+</div>
+
         <div class="line hidden-xs">
-        	<div class="container">
+            <div class="container">
                 <div class="row">
                     <div class="col-sm-4"><i class="fa fa-bullhorn"></i></div>
                     <div class="col-sm-4"><i class="fa fa-bullhorn"></i></div>
@@ -496,63 +479,62 @@
                 </div>
             </div>
         </div>
-		
+
         <div class="container">
-            <div class="row"><!-- MAIN ROW - Start -->
-            	<!-- BLOG POST - Start -->
+            <div class="row">
+                <!-- MAIN ROW - Start -->
+                <!-- BLOG POST - Start -->
                 <div class="col-sm-4 scrollpoint sp-effect1">
-                	<div class="blog-post">
-                    	<div class="blog-body">
-                    		<h3>Lorem Ipsum</h3>
-                        	<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
-                        	<a href="" class="btn btn-primary">Read More</a>
+                    <div class="blog-post">
+                        <div class="blog-body">
+                            <h3>Being a woman in a man’s world</h3>
+                            <p>The world of programming is a rough and ruthless environment for a newly educated girl like indina. Being a programmer today is still associated with boys with lots of hair, glasses and empty bottles of cola!</p>
+                            <a href="http://conflictedcoding.com/?p=452" class="btn btn-primary">Read More</a>
                         </div>
-                        <div class="blog-info">
-                        	<a><i class="fa fa-comment"></i> 352</a>
+                        <!--<div class="blog-info">
+                            <a><i class="fa fa-comment"></i> 352</a>
                             <a><i class="fa fa-calendar"></i> 21/03/2014</a>
                             <a href="#"><i class="fa fa-facebook"></i></a>
-							<a href="#"><i class="fa fa-twitter"></i></a>
-                        </div>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        </div>-->
                     </div>
                 </div>
                 <!-- BLOG POST - End -->
-                
                 <!-- BLOG POST - Start -->
                 <div class="col-sm-4 scrollpoint sp-effect3">
-                	<div class="blog-post">
-                    	<div class="blog-body">
-                    		<h3>Lorem Ipsum</h3>
-                        	<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
-                        	<a href="" class="btn btn-primary">Read More</a>
+                    <div class="blog-post">
+                        <div class="blog-body">
+                            <h3>John Papa</h3>
+                            <p>I just want to tell you gays about John Papa. BipaPain is talking about him all the time. He works with pluralsigth. He is spelsilased in Windows, HTML5, JavaScript, CSS, Silverlight, WPF, C#, .NET and SQL Server. </p>
+                            <a href="http://conflictedcoding.com/?p=78" class="btn btn-primary">Read More</a>
                         </div>
-                        <div class="blog-info">
-                        	<a><i class="fa fa-comment"></i> 352</a>
+                        <!--<div class="blog-info">
+                            <a><i class="fa fa-comment"></i> 352</a>
                             <a><i class="fa fa-calendar"></i> 21/03/2014</a>
                             <a href="#"><i class="fa fa-facebook"></i></a>
-							<a href="#"><i class="fa fa-twitter"></i></a>
-                        </div>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        </div>-->
                     </div>
                 </div>
                 <!-- BLOG POST - End -->
-                
                 <!-- BLOG POST - Start -->
                 <div class="col-sm-4 scrollpoint sp-effect2">
-                	<div class="blog-post">
-                    	<div class="blog-body">
-                    		<h3>Lorem Ipsum</h3>
-                        	<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
-                        	<a href="" class="btn btn-primary">Read More</a>
+                    <div class="blog-post">
+                        <div class="blog-body">
+                            <h3>NDOslo</h3>
+                            <p>Bipa and i was checking up the ndcoslo conference on the Internett to read about the speakers. Bipa is like a boy showing off his football cards. Look Indina, Scott Hansellman and Steve Sanderson - the father of knockout. </p>
+                            <a href="http://conflictedcoding.com/?p=212" class="btn btn-primary">Read More</a>
                         </div>
-                        <div class="blog-info">
-                        	<a><i class="fa fa-comment"></i> 352</a>
+                        <!--<div class="blog-info">
+                            <a><i class="fa fa-comment"></i> 352</a>
                             <a><i class="fa fa-calendar"></i> 21/03/2014</a>
                             <a href="#"><i class="fa fa-facebook"></i></a>
-							<a href="#"><i class="fa fa-twitter"></i></a>
-                        </div>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        </div>-->
                     </div>
                 </div>
                 <!-- BLOG POST - End -->
-                
+
             </div><!-- MAIN ROW - end -->
         </div><!-- CONTAINER - end -->
     </section>
@@ -565,77 +547,8 @@
     =========================== -->   
     <section id="pricing" class="content-second">
         <div class="container">
-        	<h2 class="scrollpoint sp-effect3">Pricing plans</h2>
-        	<p class="scrollpoint sp-effect3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in turpis quam. Nulla quis eleifend lectus.</p> 
-            <div class="row">
-            <!-- PRICING TABLE FIRST - start --> 
-                <div class="col-sm-4 scrollpoint sp-effect1"><!-- PRICING TABLE FIRST - start -->  
-                    <div class="pricing-table"><!-- Pricing table - start --> 
-                        <div class="pricing-headline">
-                        	<h3>Lite</h3>
-                            <div class="prize">$99</div>
-                        </div>
-                        
-                        <ul class="list-unstyled">
-                            <li><strong>150</strong> Lorem Ipsum</li>
-                            <li><i class="fa fa-check"></i> Lorem Ipsum</li>
-                            <li><i class="fa fa-times"></i> Lorem Ipsum</li>
-                            <li><strong>150</strong> Lorem Ipsum</li>
-                        </ul>
-                        
-                        <div class="btn-wrapper">
-                        <a class="btn btn-primary">Order</a>
-                        </div>
-                        
-                        
-                    </div><!-- Pricing table - end-->      
-           		</div><!-- COL-SM-4 - end --> 
-                  
-            	<div class="col-sm-4 scrollpoint sp-effect3"><!-- PRICING TABLE FIRST - start -->  
-                    <div class="pricing-table active"><!-- Pricing table - start --> 
-                        <div class="pricing-headline">
-                        	<h3>Standard</h3>
-                            <div class="prize">$150</div>
-                        </div>
-                        
-                        <ul class="list-unstyled">
-                            <li><strong>150</strong> Lorem Ipsum</li>
-                            <li><i class="fa fa-check"></i> Lorem Ipsum</li>
-                            <li><i class="fa fa-times"></i> Lorem Ipsum</li>
-                            <li><strong>150</strong> Lorem Ipsum</li>
-                        </ul>
-                        
-                        <div class="btn-wrapper">
-                        <a class="btn btn-primary">Order</a>
-                        </div>
-                        
-                        
-                    </div><!-- Pricing table - end-->      
-           		</div><!-- COL-SM-4 - end --> 
-                
-                <div class="col-sm-4 scrollpoint sp-effect2"><!-- PRICING TABLE FIRST - start -->  
-                    <div class="pricing-table"><!-- Pricing table - start --> 
-                        <div class="pricing-headline">
-                        	<h3>Premium</h3>
-                            <div class="prize">$350</div>
-                        </div>
-                        
-                        <ul class="list-unstyled">
-                            <li><strong>150</strong> Lorem Ipsum</li>
-                            <li><i class="fa fa-check"></i> Lorem Ipsum</li>
-                            <li><i class="fa fa-times"></i> Lorem Ipsum</li>
-                            <li><strong>150</strong> Lorem Ipsum</li>
-                        </ul>
-                        
-                        <div class="btn-wrapper">
-                        <a class="btn btn-primary">Order</a>
-                        </div>
-                        
-                        
-                    </div><!-- Pricing table - end-->      
-           		</div><!-- COL-SM-4 - end -->   
-            
-            </div>
+        	<h2 class="scrollpoint sp-effect3">   Because I am a programmer chick and proud of it!</h2>
+        
         </div>
     </section>
     <!-- ==========================
@@ -648,17 +561,17 @@
     <section id="testimonials" class="content-first">
         <div class="container">
         	<h2 class="scrollpoint sp-effect3 text-center">Testimonials</h2>
-        	<p class="scrollpoint sp-effect3 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in turpis quam. Nulla quis eleifend lectus.</p> 
+        	<p class="scrollpoint sp-effect3 text-center">This is some feedback I have received written by people I've had projects with</p> 
             <div class="row">
             	
                 <!-- TESTIMONIAL 1 - START -->
                 <div class="col-sm-6 scrollpoint sp-effect1">
                     <div class="media">
-                        <a class="pull-left" href="#"><img class="media-object img-circle" src="image/tom.png" alt=""></a>
+                        <a class="pull-left" href="#"><img class="media-object img-circle" src="image/jan-erik-stuedal.jpg" alt=""></a>
                         <div class="media-body">
-                            <h4 class="media-heading">John Doe</h4>
-                            <span>Webdesigner</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed volutpat est. Donec lobortis interdum volutpat. Maecenas bibendum dui quis pharetra tincidunt. Praesent posuere eu velit at scelerisque.</p>
+                            <h4 class="media-heading">Jan Erik Stuedal</h4>
+                            <span>CEO/Co-founder - Worklink AS</span>
+                            <p>We have hired Indina and her company to work with our new comprehensive project. Indina has a great eye for details and a innovative set of mind. She is skillful within her field of specialties, and she deliver above expectations. She is also a great contributor when it comes to working out new ideas. I can confidently recommend her for similar work.</p>
                         </div>
                     </div>
                 </div>
@@ -667,11 +580,11 @@
                 <!-- TESTIMONIAL 2 - START -->
                 <div class="col-sm-6 scrollpoint sp-effect2">
                     <div class="media">
-                        <a class="pull-left" href="#"><img class="media-object img-circle" src="image/suzanne.png" alt=""></a>
+                        <a class="pull-left" href="#"><img class="media-object img-circle" src="image/mads.jpg" alt=""></a>
                         <div class="media-body">
-                            <h4 class="media-heading">John Doe</h4>
-                            <span>Webdesigner</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed volutpat est. Donec lobortis interdum volutpat. Maecenas bibendum dui quis pharetra tincidunt. Praesent posuere eu velit at scelerisque.</p>
+                            <h4 class="media-heading">Mads Folke Nordmark</h4>
+                            <span>Project manager - Gunaxi AS</span>
+                            <p>With an eye for detail and a focus on user experience, indina creating a good online presence for our clients. In addition to being a skilled developer and desinger is Indina a skilled Coordinator, she likes many balls in the air at once, which comes in handy in a busy and challenging environment.</p>
                         </div>
                     </div>
                 </div>
@@ -763,7 +676,7 @@
                             <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                         </ul>  
                     
-                    <p>© John Doe The Freelancer 2014 All right reserved. Designed by <a href="http://pixelized.cz" target="_blank" class="btn btn-footer">Pixelized Studio</a></p>
+                    <p> IndisStyle 2014  </p>
                 </div>   	
             </div>
         </div>
